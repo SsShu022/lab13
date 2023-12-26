@@ -17,7 +17,7 @@ public class BrenfetchRequest  {
         OkHttpClient client = new OkHttpClient();
 
         Request request = new Request.Builder()
-        .addHeader("Authorization", "Bearer " + "GRk/SuvPro7lov132NwyPWOTPhTULMv/Lc6/6eOQy20=")
+        .addHeader("Authorization", "Bearer " + "API_KEY")
         .url("https://api.brandfetch.io/v2/brands/" + brandName)
         .get()
         .addHeader("accept", "application/json")
