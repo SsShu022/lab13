@@ -1,8 +1,8 @@
-package ucu.edu;
+package ucu.edu.task2;
 
 public class Main {
     public static void main(String[] args) {
-        DataBase db = new DataBase();
+        БазаДаних db = new БазаДаних();
         Авторизація авторизація = new Авторизація();
         if (авторизація.авторизуватися(db)) {
             ReportBuilder br = new ReportBuilder(db);
